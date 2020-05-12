@@ -30,7 +30,7 @@ $ pwd
 /home/staff/Desktop/taobao-sdk
 
 # 安装到本地仓库中
-$ mvn install:install-file -DgroupId=com.dingtalk -DartifactId=taobao-sdk-java-auto -Dversion=1479188381469-20190815 -Dpackaging=jar -Dfile=taobao-sdk-java-auto-1479188381469-20190815.jar
+$ mvn install:install-file -DgroupId=com.dingtalk -DartifactId=taobao-sdk-java-auto -Dversion=1479188381469-20190815 -Dpackaging=jar -Dfile=taobao-sdk-java-auto-1479188381469-20190815.jar -DpomFile=pom.xml
 
 # 安装完存放的位置
 $ cd ~/.m2/repository/com/dingtalk/taobao-sdk-java-auto/1479188381469-20190815
